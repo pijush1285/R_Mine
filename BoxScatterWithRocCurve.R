@@ -14,6 +14,7 @@
 
 library(readxl)
 library(ROCR)
+library(pROC)
 
 daataa27 <- read_excel("daataa27.xlsx")
 View(daataa27)
